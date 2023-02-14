@@ -1,0 +1,22 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "author": "Simaleon (https://github.com/simaleon)",
+  "description": "Web Pacman game",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "4.9.4",
+    "vite": "^4.0.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
